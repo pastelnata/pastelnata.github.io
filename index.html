@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rita's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rita Braunschweig</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="menu-nav">
+        <div class="logo">Rita Braunschweig</div>
+        <div class="menu">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about-me" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="Rita's picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello! I'm</p>
+            <h1 class="title">Rita Braunschweig</h1>
+            <p class="section_text_p2">Software Engineering Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/CV.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My Linkedin Profile" class="icon" 
+                onclick="window.open('https://www.linkedin.com/in/rita-braunschweig-39557028a/')">
+                <img src="./assets/github.png" alt="My GitHub Profile" class="icon" 
+                onclick="window.open('https://github.com/pastelnata')">
+            </div>
+        </div>
+    </section>
+    <section id="about-me">
+        <h1 class="title">About Me</h1>
+        <div class="about-details-container">
+            <div class="details-container">
+                <img src="./assets/skills.png">
+                <h3>Skills</h3>
+                <div class="column">
+                    <ul class="skills-lists">
+                        <li>C# (intermediate)</li>
+                        <li>HTML (basic)</li>
+                        <li>JavaScript (basic)</li>
+                        <li>CSS (basic)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul class="skills-lists">
+                        <li>Avalonia UI (basic)</li>
+                        <li>Visual Studio Code</li>
+                        <li>Microsoft Office</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-container">
+                <img src="./assets/education.png">
+                <h3>Education</h3>
+                <p class="education_date">2023 - Current</p>
+                <p class="education_degree">BSc in Software Engineering</p>
+            </div>
+            <div class="details-container">
+                <img src="./assets/achievements.png">
+                <h3>Achievements</h3>
+                <ul class="achievements-container">
+                    <li>Board member in IDA STEM Students.</li>
+                    <li>Grade 12 in Object-Oriented Programming.</li>
+                    <li>Honour student in high school.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-container"></div>
+        <p class="text">
+            I am a first-year Software Engineering student passionate about taking on challenges and contributing to
+            meaningful projects. My motivation and dedication push me to continuously learn. I bring a proactive and openminded approach to every task, enabling me to quickly adapt and learn. I value teamwork, and my patient nature
+            allows me to collaborate effectively in group settings. I am committed to applying my skills, while also learning
+            from new experiences, to contribute positively to any project.
+        </p>
+    </section>
+    <section id="projects">
+        <h1 class="title">Projects</h1>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
