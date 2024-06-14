@@ -99,10 +99,73 @@
             allows me to collaborate effectively in group settings. I am committed to applying my skills, while also learning
             from new experiences, to contribute positively to any project.
         </p>
+    <img src="assets/arrow down.png" alt="arrow icon" class="arrow"
+    onclick="location.href='./#projects'">
     </section>
     <section id="projects">
         <h1 class="title">Projects</h1>
+        <div class="project-details-container">
+            <div class="project-container"> <!--danfoss project-->
+                <h3>Heating Optimization System</h3>
+                <img class="project-pic" src="./assets/danfoss app.png">
+                <ul>
+                    <li>Tools used: C#, Avalonia UI</li>
+                    <li>A heating optimization application for Danfoss.</li>
+                </ul>
+                <button class="github-btn"
+                onclick="window.open('https://github.com/Condesgall/HeatProductionOptimization')">
+                GitHub Link</button>
+            </div>
+            <div class="project-container"> <!--portfolio project-->
+                <h3>Personal Portfolio</h3>
+                <img class="project-pic" src="./assets/portfolio pic.png">
+                <ul>
+                    <li>Tools used: HTML, CSS, JavaScript</li>
+                    <li>My personal portfolio website. </li>
+                </ul>
+                <button class="github-btn"
+                onclick="window.open('https://www.linkedin.com/in/rita-braunschweig-39557028a/')">
+                GitHub Link</button>
+            </div>
+            <div class="project-container"> <!--eco city project-->
+                <h3>EcoCity</h3>
+                <img class="project-pic" src="./assets/EcoCity.png">
+                <ul>
+                    <li>Tool used: C#</li>
+                    <li>A console-based sustainable city builder game. </li>
+                </ul>
+                <button class="github-btn"
+                onclick="window.open('https://github.com/pastelnata/EcoCity')">
+                GitHub Link</button>
+            </div>
+        </div>
+    <img src="assets/arrow down.png" alt="arrow icon" class="arrow"
+    onclick="location.href='./#contact'">
     </section>
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-container">
+            <form class="contact-information" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="412e2d90-c41f-437d-a6d8-102ded5de618">
+                <input class="contact-inputs" type="text" name="name" placeholder="Your Name" required>
+                <input class="contact-inputs" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="contact-inputs" name="message" placeholder="Your Message" required></textarea>
+                <button class="btn btn-color-2" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Rita Braunschweig. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
