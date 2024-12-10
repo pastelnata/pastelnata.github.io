@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This repository contains the source code for my portfolio website. It showcases my projects, skills, achievements, contact information, and others.
 
-**Site Link:** https://luxury-pithivier-a51ce4.netlify.app/
+**Site Link:** https://pastelnata.github.io/
 
 
 ## Features
