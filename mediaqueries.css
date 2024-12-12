@@ -30,8 +30,14 @@
         justify-content: center;
         width: 100vw;
     }
+    
     #profile, .details-container {
         display: block;
+    }
+    
+    #profile {
+        height: 10vh;
+        margin-bottom: 0;
     }
 
     .section-container {
@@ -54,11 +60,10 @@
         text-align: center;
         justify-content: center;
         width: 100%;
-        height: 100%;
     }
 
     .details-container {
-        height: 100%;
+        height: 30vh;
         max-height: 70vh;
     }
 
@@ -158,6 +163,11 @@
         text-align: center;
         justify-content: center;
         width: 100%;
+    }
+
+    .details-container {
+        height: 50vh;
+        max-height: 70vh;
     }
 
     .column{

@@ -322,6 +322,12 @@ section {
     color: black;
 }
 
+.education_avg {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
 .arrow {
     position: absolute;
     right: 60px;

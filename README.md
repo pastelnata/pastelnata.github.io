@@ -11,6 +11,7 @@ Welcome to my personal portfolio! This repository contains the source code for m
 - **About Me**: A brief self-introduction, my skills, achievements and education.
 - **Contact Information**: Displays my contact information, including email and linkedin.
 - **CV Download**: Contains an option to download my CV.
+- **Responsive Design**: The site is fully responsive and works well on all devices, including phones and tablets.
 
 
 ## Programming Languages Used
