@@ -246,6 +246,7 @@ section {
     width: 9rem;
     border-radius: 2rem;
     border-color: rgb(221, 169, 243);
+    color: black;
 }
 
 .btn-color-1 {
