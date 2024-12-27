@@ -417,6 +417,7 @@ section {
     border-color: rgb(221, 169, 243);
     background-color: rgb(221, 169, 243);
     align-self: center;
+    color: black;
 }
 
 .github-btn:hover {
