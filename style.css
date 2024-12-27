@@ -4,20 +4,39 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 p {
     color: rgb(85, 85, 85);
 }
 
+#about-me, #projects, #contact, #profile {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2rem;;
+    margin-bottom: 20vh;
+}
+
+#profile {
+    margin-top: 15vh;
+}
+
 /* TRANSITION */
 
 a, .btn {
-    transition: all 300ms ease
+    transition: all 300ms ease;
 }
 
 /* DESKTOP */
@@ -44,7 +63,7 @@ a {
 }
 
 a:hover {
-    color: rgb(203, 134, 233)   ;
+    color: rgb(203, 134, 233);
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     text-decoration-color: rgb(221, 169, 243);
@@ -141,7 +160,6 @@ a:hover {
 
 section {
     padding: 4vh;
-    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -151,6 +169,7 @@ section {
 
 #profile {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
@@ -250,7 +269,9 @@ section {
 /* ABOUT ME SECTION */
 
 #about-me {
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .about-details-container {

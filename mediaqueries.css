@@ -1,70 +1,34 @@
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-
-    }
-
     .details-container {
         flex-wrap: wrap;
+    }
+    body, html {
+        width: 100vw;
+        justify-content: center;
+        overflow-x: hidden;
     }
     
 }
 
 @media screen and (max-width: 1200px) {
-    html, body {
+
+    body, html {
+        width: 100vw;
+        justify-content: center;
         overflow-x: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100vw;
-        margin: 0;
-        padding: 0;
     }
     
-    body {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        width: 100vw;
-    }
-    
-    #profile, .details-container {
-        display: block;
-    }
-    
-    #profile {
-        height: 10vh;
-        margin-bottom: 0;
-    }
-
-    .section-container {
-        display: block;
-    }
-
-    #about-me {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding: 1rem;
-    }
-
     .about-details-container {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
+        height: fit-content;
         width: 100%;
     }
 
     .details-container {
-        height: 30vh;
-        max-height: 70vh;
+        height: fit-content;
     }
 
     .contact-inputs {
@@ -106,6 +70,14 @@
         width: 100vw;
     }
 
+    #profile {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin-bottom: 20vh;
+        height: fit-content;
+    }
+
     .arrow {
         display: none;
     }
@@ -117,14 +89,6 @@
     #menu-nav {
         display: flex;
         gap: 30px;
-    }
-
-    #profile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
     }
     
     .section_pic-container {
@@ -147,15 +111,6 @@
         width: 100%;
     }
 
-    #about-me {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        padding: 1rem;
-    }
-
     .about-details-container {
         display: flex;
         flex-direction: column;
@@ -163,11 +118,12 @@
         text-align: center;
         justify-content: center;
         width: 100%;
+        height: auto;
     }
-
+    
     .details-container {
-        height: 50vh;
-        max-height: 70vh;
+        height: 70vh;
+        max-height: 100vh;
     }
 
     .column{
@@ -192,20 +148,13 @@
     .text {
         text-align: justify;
     }
-    
-    #projects {
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-        width: 100%;
-    }
 
     .project-details-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 80vw;
     }
 
     .project-container {
